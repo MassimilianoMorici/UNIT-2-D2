@@ -72,7 +72,11 @@ console.log ('Mario Rossi', marioRossi );
 */
 let dodici = 12;
 let venti = 20;
+
 console.log ('fammi sta operazione' , dodici + venti)
+
+let risultato = dodici + venti
+console.log (risultato)
 
 
 /*
@@ -83,12 +87,14 @@ let x = 12
 /*
 4
 */
-let name = "Max"
+let namemio = "Max"
 
 /*
 5
 */
-console.log (name - x) 
+let sottrazione = x - 4
+console.log ("la sottrazione vale:" , sottrazione);
+console.log (`la sottrazione tra ${x} e ${4} è ${sottrazione}`) 
 
 /*
 6
@@ -111,4 +117,6 @@ console.log (name1 === name2)
 let result = name2.toLowerCase(String);
 console.log (result)
 console.log (name1 == result)
+
+console.log (name1 == name2.toLowerCase()) /* si può anche scrivere in un unica formula */
 
