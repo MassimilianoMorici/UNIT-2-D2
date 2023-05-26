@@ -120,3 +120,6 @@ console.log (name1 == result)
 
 console.log (name1 == name2.toLowerCase()) /* si può anche scrivere in un unica formula */
 
+
+//prova
+
